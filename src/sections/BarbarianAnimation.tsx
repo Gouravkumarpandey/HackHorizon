@@ -27,7 +27,7 @@ const SECTION_CONFIG = {
     images: [5],
     description: "The journey map is revealed, follow the path to glory!"
   },
-  testimonials: {
+  glimpse: {
     images: [6],
     description: "Hear the legends of past Code Warriors!"
   },

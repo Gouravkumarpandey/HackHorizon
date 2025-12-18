@@ -1,13 +1,13 @@
 import Spark from '@/assets/svg/Spark.svg'
 import Image from 'next/image';
 
-interface TestimonialsCardProps {
+interface GlimpseCardProps {
     content: string;
     name: string;
     collegeName: string;
 }
 
-export default function TestimonialsCard({content, name, collegeName}: TestimonialsCardProps) {
+export default function GlimpseCard({content, name, collegeName}: GlimpseCardProps) {
   return (
     <div className="w-full font-sans sm:w-[90%] md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-2rem)] max-w-[440px] h-auto min-h-[400px] sm:min-h-[450px] md:min-h-[505px] mx-auto group">
       <div 
@@ -36,7 +36,7 @@ export default function TestimonialsCard({content, name, collegeName}: Testimoni
               />
             </div>
             
-            {/* Testimonial content */}
+            {/* Glimpse content */}
             <div className="flex-1 text-sm sm:text-base md:text-lg lg:text-[18px] text-left leading-relaxed font-sans text-gray-100 tracking-wide">
               {content}
             </div>

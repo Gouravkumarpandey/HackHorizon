@@ -10,7 +10,7 @@ import LoadingScreen from "@/sections/LoadingScreen";
 import Audio from "@/components/ui/Audio";
 import ScrollBackToTopButton from "@/components/ui/scrollBackToTopButton";
 import { motion } from "motion/react"
-import Testimonials from "@/sections/Testimonials";
+import Glimpse from "@/sections/Glimpse";
 import Sponsors from "@/sections/SponsorsSection";
 
 // Lazy load below-the-fold sections
@@ -99,8 +99,8 @@ export default function Home() {
         <TimelineSection />
       </div>
       <Divider />
-      <div id="testimonials-section" data-section="testimonials">
-        <Testimonials />
+      <div id="glimpse-section" data-section="glimpse">
+        <Glimpse />
       </div>
       <DividerNoArrow />
       <div className="sponsor-section" data-section="sponsors">
