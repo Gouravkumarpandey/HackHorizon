@@ -2,7 +2,9 @@ import Navbar from "@/components/layout/Navbar";
 import Image from "next/image";
 import backgroundImage from "../assets/images/background.png";
 import HackHorizonheadingLogo from "@/components/ui/HackHorizonlogo";
-import DevfolioButton from "@/components/ui/DevfolioButton";
+// import removed
+// logo removed
+import RegisterNowButton from "@/components/ui/RegisterNowButton";
 import BalloonShip from "@/components/ui/HeroSectionElement/BalloonShip";
 import Cloud from "@/components/ui/HeroSectionElement/Cloud";
 import BlueDragon from "@/components/ui/HeroSectionElement/BlueDragon";
@@ -33,6 +35,7 @@ export default function HeroSection() {
                 playsInline
                 preload="auto"
             />
+
 
 
             {/* this is layer five navbar */}
@@ -72,7 +75,7 @@ export default function HeroSection() {
 
             <div className="relative z-50 text-center space-y-6 md:space-y-8 lg:space-y-10 flex flex-col items-center justify-center">
                 <HackHorizonHeadingLogo />
-                <DevfolioButton />
+                <RegisterNowButton />
             </div>
         </section>
     )
